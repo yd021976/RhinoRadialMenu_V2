@@ -1,0 +1,63 @@
+name: Bug report
+description: Report a bug or unexpected behavior
+title: "[BUG]"
+labels: ["bug"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out the information below to help diagnose the issue.
+  - type: input
+    id: OS
+    attributes:
+      label: OS version
+      placeholder: e.g. Macos 26.4 or Windows 11
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Plugin version
+      placeholder: e.g. 2.0.0
+    validations:
+      required: true
+
+  - type: input
+    id: releaseType
+    attributes:
+      label: Demo or Release
+      placeholder: e.g. Demo
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      placeholder: What happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Do this
+        2. Then that
+        3. Crash 💥
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      placeholder: What should have happened?
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots / context
+      placeholder: Add screenshots if relevant
