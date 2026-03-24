@@ -4,6 +4,7 @@ This Rhino plugin adds a contextual radial menu around your cursor, so common co
 You can set up to 3 submenu levels.
 **Compatible with macOS and Windows.**
 
+### 📷 Screenshots
 <table style="border:none;">
   <tr>
     <td>Radial menu</td>
@@ -18,6 +19,16 @@ You can set up to 3 submenu levels.
     </td>
   </tr>
 </table>
+
+### 📹 Some demo videos
+<details>
+<summary><b>Drag Rhino Toolbar item to RadialMenu</b></summary>
+<img src="./Images/Toolbar_item_dragdrop.gif" style="width:33%;height:33%;">
+</details>
+<details>
+<summary><b>Move/Re-organise RadialMenu items</b></summary>
+<img src="./Images/RadialMenuMoveMenuItem.gif" style="width:33%;height:33%;">
+</details>
 
 # ⚙️ Main features
 
@@ -62,18 +73,6 @@ You can set up to 3 submenu levels.
 | Windows | Left click (no modifier) | Right click (no modifier) | Left click + `Alt` key | In the center circle<br>Right click + `Control` key | On a menu item<br>Right click + `Control` key |
 
 If no modifier is listed, use click only.
-
-##### 📹 Some demo videos
-
-<details>
-<summary><b>Drag Rhino Toolbar item to RadialMenu</b></summary>
-<img src="./Images/Toolbar_item_dragdrop.gif" style="width:33%;height:33%;">
-</details>
-<details>
-<summary><b>Move/Re-organise RadialMenu items</b></summary>
-<img src="./Images/RadialMenuMoveMenuItem.gif" style="width:33%;height:33%;">
-</details>
-
 
 
 
