@@ -65,12 +65,12 @@ If no modifier is listed, use click only.
 ##### 📹 Some demo videos
 
 <details>
-<img src="./Images/Toolbar_item_dragdrop.gif" style="width:33%;height:33%;">
 <summary><b>Drag Rhino Toolbar item to RadialMenu</b></summary>
+<img src="./Images/Toolbar_item_dragdrop.gif" style="width:33%;height:33%;">
 </details>
 <details>
-<img src="./Images/RadialMenuMoveMenuItem.gif" style="width:33%;height:33%;">
 <summary><b>Move/Re-organise RadialMenu items</b></summary>
+<img src="./Images/RadialMenuMoveMenuItem.gif" style="width:33%;height:33%;">
 </details>
 
 
