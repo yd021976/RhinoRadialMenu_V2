@@ -2,16 +2,13 @@
 
 This Rhino plugin adds a contextual radial menu around your cursor, so common commands are always close to where you work.
 You can set up to 3 submenu levels.
-<div style="display:flex; flex-direction:row; gap:20px; align-items:flex-start;">
-  <div style="width:300px;Height:300px">
-    <img src="./Images/RadialMenu.png" style="display:block; width:100%; height:100%; margin:0;">
-  </div>
-  <div style="width:300px;height:300px;">
-    <img src="./Images/Settings.png" style="display:block; width:100%; height:100%; margin:0;">
-  </div>
-</div>
+**Compatible with macOS and Windows.**
 
-<table style="border:0px;">
+<table style="border:none;">
+  <tr>
+    <td>Radial menu</td>
+    <td>Settings</td>
+  </tr>
   <tr>
     <td align="center">
       <img src="./Images/RadialMenu.png" width="300">
