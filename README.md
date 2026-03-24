@@ -11,6 +11,17 @@ You can set up to 3 submenu levels.
   </div>
 </div>
 
+<table>
+  <tr>
+    <td align="center">
+      <img src="./Images/RadialMenu.png">
+    </td>
+    <td align="center">
+      <img src="./Images/Settings.png">
+    </td>
+  </tr>
+</table>
+
 ##### ⚙️ Main features
 
 **Interactions**
