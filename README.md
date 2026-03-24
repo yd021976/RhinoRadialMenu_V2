@@ -11,13 +11,13 @@ You can set up to 3 submenu levels.
   </div>
 </div>
 
-<table>
+<table style="border:0px;">
   <tr>
     <td align="center">
-      <img src="./Images/RadialMenu.png">
+      <img src="./Images/RadialMenu.png" width="300">
     </td>
     <td align="center">
-      <img src="./Images/Settings.png">
+      <img src="./Images/Settings.png" width="300">
     </td>
   </tr>
 </table>
