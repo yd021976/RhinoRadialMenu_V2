@@ -60,6 +60,7 @@ You can set up to 3 submenu levels.
 | ------- | ------------------------ | ------------------------- | ---------------------- | --------------------------------------------------- | --------------------------------------------- |
 | macOS   | Left click (no modifier) | Right click (no modifier) | Left click + `Cmd` key | In the center circle<br>Right click + `Cmd` key     | On a menu item<br>Right click + `Cmd` key     |
 | Windows | Left click (no modifier) | Right click (no modifier) | Left click + `Alt` key | In the center circle<br>Right click + `Control` key | On a menu item<br>Right click + `Control` key |
+
 If no modifier is listed, use click only.
 
 ##### 📹 Some demo videos
