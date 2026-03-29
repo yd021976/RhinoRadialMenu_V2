@@ -1,57 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SmartPieMenu Documentation</title>
+  <title>SmartPieMenu</title>
   <link rel="stylesheet" href="./styles.css" />
 </head>
+
 <body>
   <div class="container">
     <header class="hero">
-      <div class="hero-copy">
-        <div class="eyebrow">Rhino Plugin Manual</div>
-        <h1>SmartPieMenu</h1>
-        <p class="subtitle">
-          Work faster in Rhino with a configurable radial menu designed to keep commands close to the cursor and your modeling flow uninterrupted.
-        </p>
-        <div class="hero-actions">
-          <a class="button-link" href="https://www.food4rhino.com/en/app/smartpiemenu-radialmenu-v2-rhino?lang=fr" target="_blank" rel="noreferrer">Food4Rhino</a>
-          <a class="button-link secondary" href="https://github.com/yd021976/RhinoRadialMenu_V2" target="_blank" rel="noreferrer">GitHub Repository</a>
-        </div>
-        <div class="hero-meta">
-          <span class="meta-chip">macOS and Windows</span>
-          <span class="meta-chip">Up to 3 submenu levels</span>
-          <span class="meta-chip">Configurable actions and rules</span>
+      <div class="eyebrow">Radial Menu Plugin for Rhino V8 - macOS & Windows</div>
+
+      <div class="hero-heading">
+        <div class="hero-heading-copy">
+          <div class="hero-title-row">
+            <img class="hero-icon" src="./Images/IconV3.png" alt="SmartPieMenu icon" />
+            <h1>SmartPieMenu</h1>
+          </div>
+          <p class="subtitle">
+            Work faster in Rhino with a configurable radial menu designed to keep commands close to the cursor and your
+            modeling flow uninterrupted.
+          </p>
         </div>
       </div>
 
-      <div class="hero-visual">
-        <div class="hero-visual-card">
-          <img src="./Images/IconV3.png" alt="SmartPieMenu radial menu in Rhino" />
-        </div>
+      <ul class="hero-feature-list" aria-label="Main features">
+        <li class="hero-feature-item">
+          <span class="hero-feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+              stroke-linejoin="round">
+              <rect x="3" y="5" width="8" height="6" rx="1.5"></rect>
+              <rect x="13" y="9" width="8" height="6" rx="1.5"></rect>
+              <path d="M7 14h4"></path>
+              <path d="M17 18h4"></path>
+            </svg>
+          </span>
+          <div class="hero-feature-copy">
+            <strong>macOS and Windows</strong>
+            <span>Cross-platform support for Rhino workflows.</span>
+          </div>
+        </li>
+        <li class="hero-feature-item">
+          <span class="hero-feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M4 18c2.2-5 5.3-8 8-8s5.8 3 8 8"></path>
+              <path d="M7 18c1.3-2.6 3.1-4 5-4s3.7 1.4 5 4"></path>
+              <circle cx="12" cy="6.5" r="1.5"></circle>
+            </svg>
+          </span>
+          <div class="hero-feature-copy">
+            <strong>Up to 3 submenu levels</strong>
+            <span>Layer your commands without losing speed.</span>
+          </div>
+        </li>
+        <li class="hero-feature-item">
+          <span class="hero-feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M5 7h14"></path>
+              <path d="M5 12h14"></path>
+              <path d="M5 17h14"></path>
+              <circle cx="9" cy="7" r="1.7"></circle>
+              <circle cx="15" cy="12" r="1.7"></circle>
+              <circle cx="11" cy="17" r="1.7"></circle>
+            </svg>
+          </span>
+          <div class="hero-feature-copy">
+            <strong>Configurable actions and rules</strong>
+            <span>Adapt menus to context, commands, and selection state.</span>
+          </div>
+        </li>
+      </ul>
+
+      <div class="hero-actions">
+        <a class="button-link"
+          href="https://smartpiemenu.lemonsqueezy.com/checkout/buy/94c1f79c-7cee-4ee1-8da5-0d182c2c4168" target="_blank"
+          rel="noreferrer">Buy a full time licence (20€)</a>
       </div>
     </header>
 
     <main class="tabs-shell">
       <div class="tablist" role="tablist" aria-label="SmartPieMenu sections">
-        <button id="tab-documentation" class="tab-button" type="button" role="tab" aria-selected="true" aria-controls="panel-documentation" data-tab="documentation">Documentation</button>
-        <button id="tab-licence" class="tab-button" type="button" role="tab" aria-selected="false" aria-controls="panel-licence" data-tab="licence" tabindex="-1">Licence</button>
-        <button id="tab-kyc" class="tab-button" type="button" role="tab" aria-selected="false" aria-controls="panel-kyc" data-tab="kyc" tabindex="-1">KYC</button>
+        <button id="tab-documentation" class="tab-button" type="button" role="tab" aria-selected="true"
+          aria-controls="panel-documentation" data-tab="documentation">Documentation</button>
+        <button id="tab-licence" class="tab-button" type="button" role="tab" aria-selected="false"
+          aria-controls="panel-licence" data-tab="licence" tabindex="-1">Licence</button>
+        <button id="tab-kyc" class="tab-button" type="button" role="tab" aria-selected="false" aria-controls="panel-kyc"
+          data-tab="kyc" tabindex="-1">KYC</button>
       </div>
 
-      <section id="panel-documentation" class="tab-panel is-active" role="tabpanel" aria-labelledby="tab-documentation" data-panel="documentation">
+      <section id="panel-documentation" class="tab-panel is-active" role="tabpanel" aria-labelledby="tab-documentation"
+        data-panel="documentation">
         <div class="documentation-layout">
           <aside class="documentation-nav" aria-label="Documentation sections">
             <div class="documentation-nav-inner">
               <p class="documentation-nav-label">Navigate</p>
               <a href="#overview" class="is-active">Overview</a>
+              <a href="#installation" class="is-active">Install</a>
               <a href="#screenshots">Screenshots</a>
               <a href="#videos">Demo Videos</a>
               <a href="#features">Features</a>
               <a href="#benefits">Benefits</a>
               <a href="#notes">Notes</a>
-              <a href="#usage">How to Use</a>
+              <a href="#usage">Basic usages</a>
             </div>
           </aside>
 
@@ -59,9 +113,22 @@
             <section id="overview" class="documentation-section">
               <h3>Overview</h3>
               <p>
-                This Rhino plugin adds a contextual radial menu around your cursor, so common commands are always close to where you work.
+                This Rhino plugin adds a contextual radial menu around your cursor, so common commands are always close
+                to where you work.
                 You can set up to 3 submenu levels. <strong>Compatible with macOS and Windows.</strong>
               </p>
+            </section>
+
+            <section id="installation" class="documentation-section">
+              <h3>Install</h3>
+              <p>
+                Install it via Rhino <code>PackageManager</code> :
+              <p>
+              <ul>
+                <li>Run <code>PackageManager</code> command in Rhino</li>
+                <li>Search for <code>SmartPieMenu</code> plugin</li>
+                <li>click <code>Install</code></li>
+              </ul>
             </section>
 
             <section id="screenshots" class="documentation-section">
@@ -81,11 +148,12 @@
             <section id="videos" class="documentation-section">
               <h3>Some Demo Videos</h3>
               <details>
-                <summary>Drag Rhino toolbar item to RadialMenu</summary>
-                <img src="./Images/Toolbar_item_dragdrop.gif" alt="Dragging a Rhino toolbar item into the radial menu" />
+                <summary>Drag Rhino toolbar item to SmartPieMenu</summary>
+                <img src="./Images/Toolbar_item_dragdrop.gif"
+                  alt="Dragging a Rhino toolbar item into the radial menu" />
               </details>
               <details>
-                <summary>Move or reorganise RadialMenu items</summary>
+                <summary>Move or reorganise SmartPieMenu items</summary>
                 <img src="./Images/RadialMenuMoveMenuItem.gif" alt="Reorganising items in the radial menu" />
               </details>
             </section>
@@ -103,7 +171,8 @@
                 <div>
                   <h4>Execution</h4>
                   <ul>
-                    <li>Launch <code>Primary</code> and <code>Alternate</code> Rhino commands with left and right click.</li>
+                    <li>Launch <code>Primary</code> and <code>Alternate</code> Rhino commands with left and right click.
+                    </li>
                   </ul>
                 </div>
                 <div>
@@ -111,7 +180,8 @@
                   <ul>
                     <li>Manage multiple menu setups with smart rules based on the current Rhino selection.</li>
                     <li>Edit menu items manually when needed: icon, primary or alternate command, and tooltip.</li>
-                    <li>Customize the radial menu in the settings editor: theme, animation speed, configuration rules, and shape.</li>
+                    <li>Customize the radial menu in the settings editor: theme, animation speed, configuration rules,
+                      and shape.</li>
                   </ul>
                 </div>
               </div>
@@ -148,17 +218,19 @@
                 </div>
               </div>
               <p class="callout">
-                Add the <code>RadialMenu</code> command to your favorite shortcut, whether it is a mouse button, a SpaceMouse button, or a keyboard shortcut, then start modeling.
+                Add the <code>SmartPieMenu</code> command to your favorite shortcut, whether it is a mouse button, a
+                SpaceMouse button, or a keyboard shortcut, then start modeling.
               </p>
             </section>
 
             <section id="usage" class="documentation-section">
-              <h3>How to Use</h3>
+              <h3>Basic usages</h3>
               <h4>1. Show or Hide the Radial Menu</h4>
               <ul>
-                <li>Run the <code>RadialMenu</code> command to show the menu.</li>
-                <li>If the menu is already visible, run <code>RadialMenu</code> again to hide it.</li>
-                <li>You can assign <code>RadialMenu</code> to any keyboard shortcut or mouse button in Rhino settings.</li>
+                <li>Run the <code>SmartPieMenu</code> command to show the menu.</li>
+                <li>If the menu is already visible, run <code>SmartPieMenu</code> again to hide it.</li>
+                <li>You can assign <code>SmartPieMenu</code> to any keyboard shortcut or mouse button in Rhino settings.
+                </li>
               </ul>
 
               <div class="table-wrap">
@@ -169,7 +241,7 @@
                       <th>Run primary action</th>
                       <th>Run alternate action</th>
                       <th>Drag and drop a menu item</th>
-                      <th>Settings</th>
+                      <th>Open settings</th>
                       <th>Edit menu item</th>
                     </tr>
                   </thead>
@@ -200,13 +272,11 @@
         </div>
       </section>
 
-      <section id="panel-licence" class="tab-panel" role="tabpanel" aria-labelledby="tab-licence" data-panel="licence" hidden>
+      <section id="panel-licence" class="tab-panel" role="tabpanel" aria-labelledby="tab-licence" data-panel="licence"
+        hidden>
         <div class="panel-intro">
           <div>
             <h2>Licence</h2>
-            <p>
-              This section embeds the current contents of <code>Licence.txt</code> directly into the page.
-            </p>
           </div>
         </div>
 
@@ -218,19 +288,25 @@
             This software and its associated files (the "Software") are the exclusive property of the author.
           </p>
           <p>
-            Permission is granted to use the Software for personal or commercial purposes, subject to the following restrictions:
+            Permission is granted to use the Software for personal or commercial purposes, subject to the following
+            restrictions:
           </p>
           <ol>
-            <li>You may not copy, reproduce, distribute, sublicense, sell, lease, or otherwise make the Software available to third parties, in whole or in part, without prior written permission from the author.</li>
-            <li>You may not reverse engineer, decompile, disassemble, or attempt to derive the source code of the Software.</li>
+            <li>You may not copy, reproduce, distribute, sublicense, sell, lease, or otherwise make the Software
+              available to third parties, in whole or in part, without prior written permission from the author.</li>
+            <li>You may not reverse engineer, decompile, disassemble, or attempt to derive the source code of the
+              Software.</li>
             <li>You may not modify, adapt, or create derivative works based on the Software.</li>
             <li>You may not remove or alter any proprietary notices or labels on the Software.</li>
           </ol>
           <p>
-            The Software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement.
+            The Software is provided "as is", without warranty of any kind, express or implied, including but not
+            limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement.
           </p>
           <p>
-            In no event shall the author be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the Software or the use or other dealings in the Software.
+            In no event shall the author be liable for any claim, damages, or other liability, whether in an action of
+            contract, tort, or otherwise, arising from, out of, or in connection with the Software or the use or other
+            dealings in the Software.
           </p>
           <p>For licensing inquiries or permissions, please contact the author.</p>
         </article>
@@ -240,9 +316,6 @@
         <div class="panel-intro">
           <div>
             <h2>KYC</h2>
-            <p>
-              This tab keeps the existing customer-facing policy content from the previous page layout.
-            </p>
           </div>
           <nav class="section-nav" aria-label="KYC sections">
             <a href="#terms">Terms</a>
@@ -255,13 +328,16 @@
           <section id="terms" class="legal-card">
             <h3>Terms of Service</h3>
             <p>
-              SmartPieMenu is provided as-is for use with Rhino software. By purchasing or using this product, you agree that you are obtaining a license to use the software, not ownership of the software itself.
+              SmartPieMenu is provided as-is for use with Rhino software. By purchasing or using this product, you agree
+              that you are obtaining a license to use the software, not ownership of the software itself.
             </p>
             <p>
-              You may not redistribute, resell, sublicense, or share the software or license information with other users.
+              You may not redistribute, resell, sublicense, or share the software or license information with other
+              users.
             </p>
             <p>
-              The software is intended for lawful use only. The author is not liable for any direct or indirect damages resulting from the use or inability to use the software.
+              The software is intended for lawful use only. The author is not liable for any direct or indirect damages
+              resulting from the use or inability to use the software.
             </p>
             <p>These terms may be updated in the future.</p>
           </section>
@@ -270,10 +346,12 @@
             <h3>Privacy Policy</h3>
             <p>SmartPieMenu does not collect personal data directly through the plugin.</p>
             <p>
-              If you contact support by email, your email address and the information you provide will only be used to respond to your request and manage license or support issues.
+              If you contact support by email, your email address and the information you provide will only be used to
+              respond to your request and manage license or support issues.
             </p>
             <p>
-              Payment providers or third-party platforms used to sell the product may collect personal information according to their own privacy policies.
+              Payment providers or third-party platforms used to sell the product may collect personal information
+              according to their own privacy policies.
             </p>
             <p>No personal information is sold or shared for advertising purposes.</p>
           </section>
@@ -281,13 +359,15 @@
           <section id="refund" class="legal-card">
             <h3>Refund Policy</h3>
             <p>
-              Refund requests may be accepted within 14 days of purchase if the product does not function as described or if a technical issue prevents normal use and cannot be resolved.
+              Refund requests may be accepted within 14 days of purchase if the product does not function as described
+              or if a technical issue prevents normal use and cannot be resolved.
             </p>
             <p>
               To request a refund, please contact support with your purchase email and a description of the issue.
             </p>
             <p>
-              Refunds may be refused in cases of abuse, repeated refund requests, or if the product has been used in a way that violates the license terms.
+              Refunds may be refused in cases of abuse, repeated refund requests, or if the product has been used in a
+              way that violates the license terms.
             </p>
           </section>
         </div>
@@ -299,132 +379,7 @@
     </footer>
   </div>
 
-  <script>
-    (function () {
-      const defaultTab = "documentation";
-      const buttons = Array.from(document.querySelectorAll(".tab-button"));
-      const panels = Array.from(document.querySelectorAll(".tab-panel"));
-      const validTabs = new Set(buttons.map((button) => button.dataset.tab));
-      const docNavLinks = Array.from(document.querySelectorAll(".documentation-nav a"));
-      const docSections = docNavLinks
-        .map((link) => {
-          const target = link.getAttribute("href");
-          return target ? document.querySelector(target) : null;
-        })
-        .filter(Boolean);
-
-      function setActiveDocLink(id) {
-        docNavLinks.forEach((link) => {
-          link.classList.toggle("is-active", link.getAttribute("href") === "#" + id);
-        });
-      }
-
-      function setActiveTab(tab, updateHash) {
-        const nextTab = validTabs.has(tab) ? tab : defaultTab;
-
-        buttons.forEach((button) => {
-          const isActive = button.dataset.tab === nextTab;
-          button.setAttribute("aria-selected", isActive ? "true" : "false");
-          button.tabIndex = isActive ? 0 : -1;
-        });
-
-        panels.forEach((panel) => {
-          const isActive = panel.dataset.panel === nextTab;
-          panel.classList.toggle("is-active", isActive);
-          panel.hidden = !isActive;
-        });
-
-        if (updateHash) {
-          const nextHash = "#" + nextTab;
-          if (window.location.hash !== nextHash) {
-            history.replaceState(null, "", nextHash);
-          }
-        }
-      }
-
-      function syncFromHash() {
-        const hash = window.location.hash.slice(1);
-
-        if (validTabs.has(hash)) {
-          setActiveTab(hash, false);
-          return;
-        }
-
-        if (hash) {
-          const section = document.getElementById(hash);
-          if (section) {
-            const parentPanel = section.closest(".tab-panel");
-            if (parentPanel && parentPanel.dataset.panel) {
-              setActiveTab(parentPanel.dataset.panel, false);
-              if (parentPanel.dataset.panel === "documentation") {
-                setActiveDocLink(hash);
-              }
-              return;
-            }
-          }
-        }
-
-        setActiveTab(defaultTab, false);
-        setActiveDocLink("overview");
-      }
-
-      buttons.forEach((button, index) => {
-        button.addEventListener("click", function () {
-          setActiveTab(button.dataset.tab, true);
-        });
-
-        button.addEventListener("keydown", function (event) {
-          let nextIndex = index;
-
-          if (event.key === "ArrowRight") {
-            nextIndex = (index + 1) % buttons.length;
-          } else if (event.key === "ArrowLeft") {
-            nextIndex = (index - 1 + buttons.length) % buttons.length;
-          } else if (event.key === "Home") {
-            nextIndex = 0;
-          } else if (event.key === "End") {
-            nextIndex = buttons.length - 1;
-          } else {
-            return;
-          }
-
-          event.preventDefault();
-          buttons[nextIndex].focus();
-          setActiveTab(buttons[nextIndex].dataset.tab, true);
-        });
-      });
-
-      docNavLinks.forEach((link) => {
-        link.addEventListener("click", function () {
-          const targetId = link.getAttribute("href").slice(1);
-          setActiveTab("documentation", false);
-          setActiveDocLink(targetId);
-        });
-      });
-
-      if ("IntersectionObserver" in window && docSections.length > 0) {
-        const observer = new IntersectionObserver(
-          (entries) => {
-            const visibleEntries = entries.filter((entry) => entry.isIntersecting);
-            if (visibleEntries.length === 0) {
-              return;
-            }
-
-            visibleEntries.sort((left, right) => left.boundingClientRect.top - right.boundingClientRect.top);
-            setActiveDocLink(visibleEntries[0].target.id);
-          },
-          {
-            rootMargin: "-18% 0px -58% 0px",
-            threshold: [0.2, 0.35, 0.6]
-          }
-        );
-
-        docSections.forEach((section) => observer.observe(section));
-      }
-
-      window.addEventListener("hashchange", syncFromHash);
-      syncFromHash();
-    }());
-  </script>
+  <script src="./app.js" defer></script>
 </body>
+
 </html>
