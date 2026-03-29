@@ -622,7 +622,7 @@ tbody tr:last-child td {
 
 .legal-card li + li {
   margin-top: 0.5rem;
-}
+} 
 
 .license-banner {
   display: inline-flex;
