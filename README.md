@@ -12,10 +12,10 @@ You can set up to 3 submenu levels.
   </tr>
   <tr>
     <td align="center">
-      <img src="./Images/RadialMenu.png" width="300">
+      <img src="./Docs/Images/RadialMenu.png" width="300">
     </td>
     <td align="center">
-      <img src="./Images/Settings.png" width="300">
+      <img src="./Docs/Images/Settings.png" width="300">
     </td>
   </tr>
 </table>
@@ -23,11 +23,11 @@ You can set up to 3 submenu levels.
 ### 📹 Some demo videos
 <details>
 <summary><b>Drag Rhino Toolbar item to RadialMenu</b></summary>
-<img src="./Images/Toolbar_item_dragdrop.gif" style="width:33%;height:33%;">
+<img src="./Docs/Images/Toolbar_item_dragdrop.gif" style="width:33%;height:33%;">
 </details>
 <details>
 <summary><b>Move/Re-organise RadialMenu items</b></summary>
-<img src="./Images/RadialMenuMoveMenuItem.gif" style="width:33%;height:33%;">
+<img src="./Docs/Images/RadialMenuMoveMenuItem.gif" style="width:33%;height:33%;">
 </details>
 
 # ⚙️ Main features
